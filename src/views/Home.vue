@@ -2,18 +2,43 @@
   <article>
     <section class="intro">
       <h1 class="intro-header">Your easy way to create gifs</h1>
-      <el-button class="intro-btn" type="primary" plain
-        >Try giffer right now
+      <el-button
+        class="intro-btn"
+        type="primary"
+        plain
+        @click="navigateToEditor"
+      >
+        Try giffer right now
       </el-button>
+    </section>
+
+    <section>
+      <h3>Create gif in 3 easy steps:</h3>
+      <ol>
+        <li>Upload video</li>
+        <li>Select fragment and press convert</li>
+        <li>Save gif</li>
+      </ol>
     </section>
   </article>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { useRouter } from "vue-router";
 
 export default defineComponent({
   name: "Home",
+  setup() {
+    const router = useRouter();
+
+    const navigateToEditor = () => {
+      router.push("editor");
+    };
+    return {
+      navigateToEditor,
+    };
+  },
 });
 </script>
 
@@ -48,6 +73,7 @@ $direction: to right;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 15%;
+  margin-bottom: 100px;
 }
 </style>

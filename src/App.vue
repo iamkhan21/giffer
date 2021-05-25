@@ -35,6 +35,7 @@ export default {
 }
 
 body {
+  font-size: 1.2rem;
   font-family: "Atkinson", Helvetica, Arial, sans-serif;
   background-color: #fff;
 }
