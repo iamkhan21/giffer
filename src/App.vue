@@ -25,6 +25,7 @@ export default {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: Atkinson;
   src: url("assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2"),
