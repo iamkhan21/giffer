@@ -69,8 +69,6 @@ import {
   VolumeControl,
 } from "@vime/vue-next";
 
-import "@vime/core/themes/default.css";
-
 export default defineComponent({
   name: "FragmentSelector",
   components: {
@@ -157,6 +155,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
+@import "~@vime/core/themes/default.css";
+
 .range-section {
   margin: 20px 10px 0;
 }
