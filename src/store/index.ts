@@ -1,8 +1,9 @@
 import { createStore } from "vuex";
+import editor from "./editor";
 
 export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  strict: process.env.NODE_ENV !== "production",
+  modules: {
+    editor,
+  },
 });

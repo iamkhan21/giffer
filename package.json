@@ -1,5 +1,5 @@
 {
-  "name": "vidder",
+  "name": "giffer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.9.0",
+    "@ffmpeg/ffmpeg": "^0.9.8",
+    "@vime/vue-next": "^5.0.28",
+    "element3": "^0.0.40",
+    "nanoid": "^3.1.23",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
