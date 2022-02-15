@@ -18,6 +18,15 @@
       #app,body,html{min-height:100vh}#app{display:grid;grid-template-columns:1fr;grid-template-rows:auto 1fr auto;max-width:960px;margin:0 auto}
     </style>
 
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT3JM2JKV1"></script>
     <script>
@@ -28,12 +37,5 @@
       gtag('config', 'G-CT3JM2JKV1');
     </script>
     <!-- End Google Tag Manager -->
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
