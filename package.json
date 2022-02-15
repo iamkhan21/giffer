@@ -11,41 +11,41 @@
     "update:cssdb": "npx browserslist@latest --update-db"
   },
   "dependencies": {
-    "@ffmpeg/core": "^0.10.0",
-    "@ffmpeg/ffmpeg": "^0.10.0",
-    "@vime/core": "5.0.28",
-    "@vime/vue-next": "5.0.28",
-    "element3": "^0.0.40",
-    "nanoid": "^3.1.23",
-    "register-service-worker": "^1.7.1",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "@ffmpeg/core": "0.10.0",
+    "@ffmpeg/ffmpeg": "0.10.1",
+    "@vime/core": "5.3.1",
+    "@vime/vue-next": "5.3.1",
+    "element3": "0.0.40",
+    "nanoid": "3.3.0",
+    "register-service-worker": "1.7.2",
+    "vue": "3.2.31",
+    "vue-router": "4.0.12",
+    "vuex": "4.0.2"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-pwa": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^7.0.0",
-    "@vue/test-utils": "^2.0.0-0",
-    "eslint": "^7.27.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.0.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.2.1",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "typescript": "~4.2.4",
-    "vue-jest": "^5.0.0-0"
+    "@types/jest": "26.0.23",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "@vue/cli-plugin-eslint": "4.5.0",
+    "@vue/cli-plugin-pwa": "4.5.15",
+    "@vue/cli-plugin-router": "4.5.15",
+    "@vue/cli-plugin-typescript": "4.5.15",
+    "@vue/cli-plugin-unit-jest": "4.5.15",
+    "@vue/cli-plugin-vuex": "4.5.15",
+    "@vue/cli-service": "4.5.15",
+    "@vue/compiler-sfc": "3.2.31",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "@vue/eslint-config-typescript": "7.0.0",
+    "@vue/test-utils": "2.0.0-rc.17",
+    "eslint": "7.27.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-vue": "7.0.0",
+    "lint-staged": "12.3.4",
+    "prettier": "2.5.1",
+    "sass": "1.49.7",
+    "sass-loader": "8.0.2",
+    "typescript": "4.5.5",
+    "vue-jest": "5.0.0-alpha.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -55,5 +55,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "volta": {
+    "node": "16.14.0"
   }
 }
